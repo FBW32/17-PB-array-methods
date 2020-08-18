@@ -37,19 +37,19 @@ console.log(another); // [ 'Hongkong', 'Bangkok', 'Manila', 'Seoul' ]
 
 // 9. **Bonus**: Use a method to concat euroCities with asianCities. Store the result in a variable (eg. worldCities).  
 let worldCities = euroCities.concat(asianCities);
-console.log(worldCities); // [ 'Berlin', <2 empty items>, 'Prague', <1 empty item>, 'Budapest', 'Tokyo','Hongkong', 'Bangkok', 'Manila', 'Seoul' ]
+console.log(worldCities); // [ 'Berlin', 'Prague', 'Budapest', 'Tokyo','Hongkong', 'Bangkok', 'Manila', 'Seoul' ]
 
 // 10. Reverse the order of worldCities.
 worldCities.reverse();
-console.log(worldCities); // [ 'Seoul', 'Manila', 'Bangkok', 'Hongkong', 'Tokyo', 'Budapest', <1 empty item>, 'Prague', <2 empty items>, 'Berlin' ]
+console.log(worldCities); // [ 'Seoul', 'Manila', 'Bangkok', 'Hongkong', 'Tokyo', 'Budapest',  'Prague', 'Berlin' ]
 
 // 11. **Bonus**: Replace the 3rd item in the array of worldCities with "Toronto". 
 worldCities[2] = "Toronto";
-console.log(worldCities); // [ 'Seoul', 'Manila', 'Toronto', 'Hongkong', 'Tokyo', 'Budapest', <1 empty item>, 'Prague', <2 empty items>, 'Berlin' ]
+console.log(worldCities); // [ 'Seoul', 'Manila', 'Toronto', 'Hongkong', 'Tokyo', 'Budapest', 'Prague', 'Berlin' ]
 
 // 12. **Bonus**: Remove no elements from the array of worldCities, but insert "Washington" at the 2nd position.
 worldCities.splice(1, 0, "Washington");
-console.log(worldCities); // [ 'Seoul', 'Washington', 'Manila', 'Toronto', 'Hongkong', 'Tokyo', 'Budapest', <1 empty item>, 'Prague', <2 empty items>, 'Berlin' ]
+console.log(worldCities); // [ 'Seoul', 'Washington', 'Manila', 'Toronto', 'Hongkong', 'Tokyo', 'Budapest', 'Prague', 'Berlin' ]
 
 // 13. **Bonus** Write a program to join all elements of the result (worldCities) into a string. 
 /* Example: worldCities = ["Berlin", "London", "Bangkok", "Phnom Penh"];
